@@ -20,9 +20,20 @@ export async function POST(req: Request) {
       text: message,
     });
 
-    return NextResponse.json({ success: true });
-  } catch (err: any) {
-    console.error("❌ Error enviando correo:", err);
-    return NextResponse.json({ error: err.message }, { status: 500 });
+     return NextResponse.json({ success: true })
+  } catch (err: unknown) {
+    if (err instanceof Error) {
+      console.error("Error enviando respuesta:", err.message)
+      return NextResponse.json(
+        { error: err.message },
+        { status: 500 }
+      )
+    }
+
+    console.error("Error desconocido enviando respuesta:", err)
+    return NextResponse.json(
+      { error: "Error desconocido" },
+      { status: 500 }
+    )
   }
 }
