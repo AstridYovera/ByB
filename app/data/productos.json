@@ -1,0 +1,119 @@
+[
+  {
+    "id": "1",
+    "nombre": "Blazer Elegante",
+    "precio": "S/ 149.90",
+    "descripcion": "Blazer diseñado para ocasiones especiales. Disponible en tallas S, M y L.",
+    "imagenes": [
+      "/blazer.jpg",
+      "/blazer2.jpg",
+      "/blazer3.jpg"
+    ],
+    "tallas": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colores": [
+      {
+        "nombre": "Negro",
+        "codigo": "#000000"
+      },
+      {
+        "nombre": "Beige",
+        "codigo": "#f5f5dc"
+      },
+      {
+        "nombre": "Rosado",
+        "codigo": "#ff69b4"
+      }
+    ],
+    "categoria": "Blazers"
+  },
+  {
+    "id": "2",
+    "nombre": "Buzo Urbano",
+    "precio": "S/ 89.90",
+    "descripcion": "Buzo cómodo y moderno, ideal para uso diario. Tallas 8 a 16.",
+    "imagenes": [
+      "/buzo.jpg",
+      "/buzo2.jpg"
+    ],
+    "tallas": [
+      "8",
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "colores": [
+      {
+        "nombre": "Negro",
+        "codigo": "#000000"
+      },
+      {
+        "nombre": "Beige",
+        "codigo": "#f5f5dc"
+      },
+      {
+        "nombre": "Rosado",
+        "codigo": "#ff69b4"
+      }
+    ],
+    "categoria": "Buzos"
+  },
+  {
+    "id": "3",
+    "nombre": "Accesorios Minimal",
+    "precio": "S/ 39.90",
+    "descripcion": "Accesorios minimalistas: collares y pulseras que complementan cualquier outfit.",
+    "imagenes": [
+      "/accesorio.jpg",
+      "/accesorio2.jpg"
+    ],
+    "tallas": [],
+    "colores": [
+      {
+        "nombre": "Negro",
+        "codigo": "#000000"
+      },
+      {
+        "nombre": "Beige",
+        "codigo": "#f5f5dc"
+      },
+      {
+        "nombre": "Rosado",
+        "codigo": "#ff69b4"
+      }
+    ],
+    "categoria": "Accesorios"
+  },
+  {
+    "id": "4",
+    "nombre": "Blazer Oversize",
+    "precio": "S/ 169.90",
+    "descripcion": "Disponible en S y M",
+    "imagenes": [
+      "/blazer2.jpg"
+    ],
+    "tallas": [
+      "S",
+      "M"
+    ],
+    "colores": [
+      {
+        "nombre": "Negro",
+        "codigo": "#000000"
+      },
+      {
+        "nombre": "Beige",
+        "codigo": "#f5f5dc"
+      },
+      {
+        "nombre": "Rosado",
+        "codigo": "#ff69b4"
+      }
+    ],
+    "categoria": "Blazers"
+  }
+]
