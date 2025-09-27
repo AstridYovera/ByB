@@ -42,16 +42,6 @@ Por seguridad, **no se comparte públicamente el enlace directo al panel de admi
 
 ---
 
-## 📦 Estructura principal
-app/
-├─ (cliente)/ # Rutas del cliente (catálogo, contacto, reclamos, etc.)
-├─ admin/ # Rutas del administrador (panel de gestión)
-├─ api/ # Endpoints API (correos, reclamos, etc.)
-├─ lib/ # Configuración de supabase y utilidades
-└─ data/ # Datos en formato JSON (productos, demo)
-
----
-
 ## 🔐 Notas de seguridad
 
 - Las variables sensibles (`SUPABASE_URL`, `SUPABASE_KEY`, `EMAIL_USER`, `EMAIL_PASS`, etc.) se almacenan en **variables de entorno en Vercel**, nunca en el repositorio.  
