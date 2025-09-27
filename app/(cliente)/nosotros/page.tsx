@@ -13,7 +13,7 @@ export default function NosotrosPage() {
                     </p>
                 </div>
                 <div className="hero-imagen">
-                    <img src="/banner-nosotros.jpg" alt="Moda B&B" />
+                    <img src="./img/banner.jpg" alt="Moda B&B" />
                 </div>
             </div>
 
@@ -108,7 +108,7 @@ export default function NosotrosPage() {
 
             {/* Imagen final */}
             <div className="nosotros-final">
-                <img src="/nosotros.jpg" alt="Equipo B&B trabajando" />
+                <img src="./img/banner.jpg" alt="Equipo B&B trabajando" />
             </div>
         </section>
     )

@@ -224,6 +224,7 @@ p {
 
 /* Lookbook */
 .lookbook {
+  margin: 1rem 3rem;
   margin-top: 6rem;
   text-align: center;
 }

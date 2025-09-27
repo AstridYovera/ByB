@@ -50,7 +50,7 @@ export default function ProductoPage() {
       <div className="producto-grid">
         {/* Galería */}
         <div className="galeria">
-          <Image
+          <img
             src={imagenActiva}
             alt={producto.nombre}
             width={600}
@@ -59,7 +59,7 @@ export default function ProductoPage() {
           />
           <div className="miniaturas">
             {producto.imagenes.map((img, i) => (
-              <Image
+              <img
                 key={i}
                 src={img}
                 alt={`${producto.nombre} ${i + 1}`}

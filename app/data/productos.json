@@ -5,9 +5,9 @@
     "precio": "S/ 149.90",
     "descripcion": "Blazer diseñado para ocasiones especiales. Disponible en tallas S, M y L.",
     "imagenes": [
-      "/blazer.jpg",
-      "/blazer2.jpg",
-      "/blazer3.jpg"
+      "./img/banner.jpg",
+      "./img/banner.jpg",
+      "./img/banner.jpg"
     ],
     "tallas": [
       "S",
@@ -36,8 +36,8 @@
     "precio": "S/ 89.90",
     "descripcion": "Buzo cómodo y moderno, ideal para uso diario. Tallas 8 a 16.",
     "imagenes": [
-      "/buzo.jpg",
-      "/buzo2.jpg"
+      "./img/banner.jpg",
+      "./img/banner.jpg"
     ],
     "tallas": [
       "8",
@@ -68,8 +68,8 @@
     "precio": "S/ 39.90",
     "descripcion": "Accesorios minimalistas: collares y pulseras que complementan cualquier outfit.",
     "imagenes": [
-      "/accesorio.jpg",
-      "/accesorio2.jpg"
+      "./img/banner.jpg",
+      "./img/banner.jpg"
     ],
     "tallas": [],
     "colores": [
@@ -94,7 +94,7 @@
     "precio": "S/ 169.90",
     "descripcion": "Disponible en S y M",
     "imagenes": [
-      "/blazer2.jpg"
+      "./img/banner.jpg"
     ],
     "tallas": [
       "S",

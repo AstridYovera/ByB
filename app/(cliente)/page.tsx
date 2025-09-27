@@ -40,7 +40,7 @@ export default function HomePage() {
         <h2>Colecciones Destacadas</h2>
         <div className="collections-grid">
           <div className="card">
-            <img src="/blazers.jpg" alt="Blazers" />
+            <img src="./img/banner.jpg" alt="Blazers" />
             <div className="card-body">
               <h3>Blazers</h3>
               <p>Diseñados para brillar en cualquier ocasión.</p>
@@ -51,7 +51,7 @@ export default function HomePage() {
           </div>
 
           <div className="card">
-            <img src="./img" alt="Buzos" />
+            <img src="./img/banner.jpg" alt="Buzos" />
             <div className="card-body">
               <h3>Buzos</h3>
               <p>Comodidad y estilo para los más pequeños.</p>
@@ -62,7 +62,7 @@ export default function HomePage() {
           </div>
 
           <div className="card">
-            <img src="/accesorios.jpg" alt="Accesorios" />
+            <img src="./img/banner.jpg" alt="Accesorios" />
             <div className="card-body">
               <h3>Accesorios</h3>
               <p>Detalles únicos que completan tu look.</p>
@@ -83,19 +83,20 @@ export default function HomePage() {
 
         <div className="lookbook-grid">
           <div className="lookbook-item tall">
-            <img src="/look1.jpg" alt="Look elegante" />
+            <img src="./img/banner.jpg" alt="Look elegante" />
           </div>
           <div className="lookbook-item">
-            <img src="/look2.jpg" alt="Casual moderno" />
+            <img src="./img/banner.jpg" alt="Casual moderno" />
           </div>
           <div className="lookbook-item">
-            <img src="/look3.jpg" alt="Streetwear con estilo" />
+            <img src="./img/banner.jpg" alt="Streetwear con estilo" />
           </div>
           <div className="lookbook-item wide">
-            <img src="/look4.jpg" alt="Blazers colección" />
+            <img src="./img/banner.jpg" alt="Blazers colección" />
           </div>
         </div>
       </section>
+      <br />
     </main>
   )
 }
