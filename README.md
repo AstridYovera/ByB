@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👗 BYB - Catálogo & Libro de Reclamaciones
 
-## Getting Started
+BYB es una **aplicación web demo** desarrollada como **proyecto personal con proyección a producción**, pensada para la venta de ropa.  
+Actualmente incluye un **catálogo navegable con compras por WhatsApp**, un **Libro de Reclamaciones funcional** y un **formulario de contacto operativo**.  
+Si bien las imágenes actuales son de prueba, el sistema cumple con la experiencia básica de compra y gestión de reclamos.  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Funcionalidades principales
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- ✅ **Libro de Reclamaciones** 100% funcional.  
+- ✅ **Formulario de Contacto** con envío de correo y auto-respuesta al cliente.  
+- ✅ **Catálogo de productos** navegable, con enlace directo a **compra vía WhatsApp**.  
+- 🔒 **Panel de Administración** privado para gestión de reclamos.  
+- 🚧 A futuro: integración de **carrito de compras** y desarrollo de **aplicación móvil**.  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tecnologías principales
 
-## Learn More
+- [Next.js 15](https://nextjs.org/) con **App Router**  
+- [TypeScript](https://www.typescriptlang.org/)  
+- [Supabase](https://supabase.com/) como base de datos  
+- [Nodemailer](https://nodemailer.com/) para correos  
+- [TailwindCSS](https://tailwindcss.com/) para diseño responsivo  
+- [Lucide React](https://lucide.dev/) para iconos  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👩‍💻 Autor
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Astrid Jahaira Yovera Tinoco** 
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌐 Enlaces de la aplicación
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Vista Cliente** 👉 [B&B](https://byb-oficial.vercel.app)  
+
+⚠️ La **vista de Administrador** está desplegada en el mismo dominio, pero en una ruta protegida.  
+Por seguridad, **no se comparte públicamente el enlace directo al panel de administración**.  
+
+---
+
+## 📦 Estructura principal
+app/
+├─ (cliente)/ # Rutas del cliente (catálogo, contacto, reclamos, etc.)
+├─ admin/ # Rutas del administrador (panel de gestión)
+├─ api/ # Endpoints API (correos, reclamos, etc.)
+├─ lib/ # Configuración de supabase y utilidades
+└─ data/ # Datos en formato JSON (productos, demo)
+
+---
+
+## 🔐 Notas de seguridad
+
+- Las variables sensibles (`SUPABASE_URL`, `SUPABASE_KEY`, `EMAIL_USER`, `EMAIL_PASS`, etc.) se almacenan en **variables de entorno en Vercel**, nunca en el repositorio.  
+- El **panel de administración** requiere acceso privado y no se expone públicamente.  
+
+---
+
+✨ Proyecto creado como **demo inicial de catálogo y gestión de reclamos para BYB**, con proyección a crecer en **carrito de compras** y **aplicación móvil** en el futuro.
