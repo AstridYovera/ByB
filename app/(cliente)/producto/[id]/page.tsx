@@ -4,7 +4,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { MessageCircle, ArrowLeft } from "lucide-react"
 import { useState } from "react"
-import productos from "@/app/data/productos.json"
+import productos from "@/app/data/productos.json" assert { type: "json" }
 
 export default function ProductoPage() {
   const { id } = useParams()
@@ -50,7 +50,7 @@ export default function ProductoPage() {
       <div className="producto-grid">
         {/* Galería */}
         <div className="galeria">
-          <img
+          <Image
             src={imagenActiva}
             alt={producto.nombre}
             width={600}
@@ -59,7 +59,7 @@ export default function ProductoPage() {
           />
           <div className="miniaturas">
             {producto.imagenes.map((img, i) => (
-              <img
+              <Image
                 key={i}
                 src={img}
                 alt={`${producto.nombre} ${i + 1}`}
