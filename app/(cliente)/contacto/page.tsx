@@ -49,9 +49,16 @@ export default function ContactoPage() {
 
       setToast({ mensaje: "Mensaje enviado con éxito", tipo: "success" })
       setForm({ nombre: "", email: "", mensaje: "" })
-    } catch (error: any) {
+    } catch (error: unknown) {
+      if (error instanceof Error) {
+        console.error("Error de EmailJS:", error.message)
+      } else {
+        console.error("Error desconocido:", error)
+      }
+
       setToast({ mensaje: "Error al enviar. Inténtalo otra vez.", tipo: "error" })
     }
+
 
     // Cerrar automáticamente el toast después de 4s
     setTimeout(() => setToast({ mensaje: "", tipo: null }), 4000)
